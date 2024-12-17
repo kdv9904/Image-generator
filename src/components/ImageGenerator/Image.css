@@ -1,0 +1,97 @@
+.header {
+    height: 30px;
+    width: auto;
+    background-color: lightgray;
+    padding-top: 20px;
+}
+
+.header h3 {
+    margin-top: -10px;
+    font-style: italic;
+    font-size: 30px;
+}
+.header h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+}
+
+.header button {
+    position: relative;
+    margin-left: 1200px;
+    bottom: 70px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    background-color: rgb(100, 50, 500);
+    color: white;
+}
+
+.img-loading {
+    position: relative;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    align-items: center;
+    gap: 4px;
+    background-color: palegreen;
+    margin-top:5px;
+    background: transparent;
+}
+
+.images img {
+    height: 270px;
+    width: 450px;
+    filter: brightness(0.2);
+}
+.search-box {
+    display: flex;
+    position: relative;
+    margin-top: -200px;
+    left: 155px;
+    width: 1000px;
+    height: 95px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: burlywood;
+    background-blend-mode: overlay;
+}
+
+.search-input {
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    margin-right: 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    background: transparent;
+    outline: none;
+}
+
+.generate-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    margin-left: -10px;
+    height: 95px;
+    font-size: 20px;
+    border-radius: 60px;
+    cursor: pointer;
+    background: linear-gradient(42deg, red, orange);
+
+}
+.image {
+    position: absolute;
+    top: 10px; 
+    left:500px; 
+    z-index: 1; 
+}
+.image img{
+    width: 300px;
+    height: 300px;
+}
